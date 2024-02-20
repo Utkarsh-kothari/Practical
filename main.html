@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+            font-family: 'belgant';
+            src: url('./belgant-aesthetic.otf') format('truetype');
+        }
+        
+        body {
+            font-family: 'belgant';
+        }
+
+        
+        h1, p {
+            font-family: 'belgant',;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="h-screen w-full text-white flex items-center justify-center h ">
+        <form class="bg-zinc-800 h-2/5 w-3/5  ">
+            <h1  class="text-center text-6xl mb-8 mt-4" > SELECT YOUR GIFT </h1>
+            <Div class="flex flex-row flex items-center justify-center h">
+            
+            <div class="mx-2 w-1/4 ">
+            <h1  class="text-start mx-8 text-3xl"> For Who? </h1>
+            <br>
+            <div class="flex flex-row">
+                <input type="radio" id="men" name="whom" value="MEN" class="hidden mx-8 h-6 w-6 ">
+                <label for="men"> <svg class="hover:fill-amber-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100" height="100" fill="rgba(240,187,64,1)"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"></path></svg>
+                </label>
+                <input type="radio" id="women" name="whom" value="WOMEN" class=" hidden mx-2 h-6 w-6">
+                <label for="women" class="mx-4"> 
+                    <svg class="hover:fill-amber-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100" height="100" fill="rgba(240,187,64,1)"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"></path> </svg>
+                </label> 
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+                
+            </div>
+            </div>
+            <div class="mx-2 w-1/4">
+                <h1  class="text-start mx-8 text-3xl" > Personality</h1>
+                <br>
+                <div class="flex flex-row">
+                    <input type="radio" id="men" name="whom" value="MEN" class="hidden mx-8 h-6 w-6 ">
+                    <label for="men"> <svg class="hover:fill-amber-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100" height="100" fill="rgba(240,187,64,1)"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"></path></svg>
+                    </label>
+                    <input type="radio" id="women" name="whom" value="WOMEN" class=" hidden mx-2 h-6 w-6">
+                    <label for="women" class="mx-4"> 
+                        <svg class="hover:fill-amber-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100" height="100" fill="rgba(240,187,64,1)"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"></path> </svg>
+                    </label> 
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+
+                </div>
+                </div><div class="mx-2 w-1/4">
+                    <h1 class="text-start mx-8 text-3xl"> Budget </h1>
+                    <br>
+                    <div class="flex flex-row ">
+                        <input type="radio" id="men" name="whom" value="MEN" class="hidden mx-8 h-12 w-12 ">
+                        <label for="men"> <svg class="hover:fill-amber-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100" height="100" fill="rgba(240,187,64,1)"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"></path></svg>
+                        </label>
+                        <input type="radio" id="women" name="whom" value="WOMEN" class=" hidden mx-2 h-6 w-6">
+                        <label for="women" class="mx-4"> 
+                            <svg class="hover:fill-amber-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100" height="100" fill="rgba(240,187,64,1)"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"></path> </svg>
+                        </label>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
+
+                    </div>
+                    </div>
+                    <div>
+                        <input type="submit" value=""> 
+                        <svg class="hover:fill-green-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="150" height="150" fill="rgba(24,187,64,1)"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"></path>  </svg>
+                    </div>
+        </Div>
+
+
+        </form> 
+    </div>
+</body>
+</html>
